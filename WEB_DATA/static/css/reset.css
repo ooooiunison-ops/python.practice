@@ -1,0 +1,27 @@
+/* ラベルのデフォルトの間隔を 0 に設定します。 */
+body,ul,ol,p,h1,h2,h3,h4,h5,h6,dl,dd,select,input,textarea,form{margin:0;padding:0}
+
+/* hタグの文字サイズは本文の文字設定を継承させる */
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+
+/* デフォルトのアイコン(箇条書きの点)をリストから削除します */
+ul,ol{list-style:none;}
+
+/* em のデフォルトの斜体を削除する */
+em{font-style: normal;}
+
+/* a タグからデフォルトの下線を削除します。 */
+a{text-decoration:none;}
+
+
+/* リンクを追加するときに作成された境界線を削除します */
+img{border:0;}
+
+/* クリアフロート */
+.clearfix:before,.clearfix:after{content:"";display:table}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1}
+
+/* 浮く */
+.fl{float:left}
+.fr{float:right}
