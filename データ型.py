@@ -138,8 +138,8 @@ f = '123'
 print(int(f))
 
 
-greeting = "おはよう"
-name = "三郎"
+greeting = "こんばんは"
+name = "小春とアオ"
 
 print((greeting+name)*3)
 
