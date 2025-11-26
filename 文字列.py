@@ -71,9 +71,9 @@ print('私の名前は{A}{B}です。{c}才です。'.format(A=name1,B=name2,c=a
 
 
 name='小春'
-name2='鈴木花代'
+name2='狩野英孝'
 age= 5
-age2= 30
+age2= 43
 
 print(f'私の名前は{name}です。{age}才です。')
 print(F'あの人の名前は{name2}です。{age2}才です')
